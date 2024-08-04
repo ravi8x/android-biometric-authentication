@@ -2,11 +2,21 @@
     <string name="app_name">Biometric Authentication</string>
     <string name="action_settings">Settings</string>
     <string name="unlock">Unlock</string>
-    <string name="prompt_info_title">Sample App Authentication</string>
-    <string name="prompt_info_subtitle">Please login to get access</string>
+    <string name="prompt_info_title">App is locked</string>
+    <string name="prompt_info_subtitle">Authentication is required to access the app</string>
     <string name="prompt_info_description">Sample App is using Android biometric authentication</string>
-    <string name="prompt_info_use_app_password">Use app password</string>
     <string name="enroll_biometric">Enroll Biometric</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="error_auth_error">Authentication error. Error code: %d, Message: %s</string>
+    <string name="locked">Locked</string>
+    <string name="locked_message">Unlock with biometric</string>
+    <string name="btn_unlock">Unlock Now</string>
+    <string name="preference_file_key">shared_prefs</string>
+    <string name="last_authenticate_time">last_authenticated_time</string>
+    <string name="enroll_biometric_message">Biometric authentication is not enabled. Do you want to enroll now?</string>
+    <string name="proceed">Proceed</string>
+    <string name="cancel">Cancel</string>
+    <string name="auth_failed">Authenticated failed!</string>
 </resources>
