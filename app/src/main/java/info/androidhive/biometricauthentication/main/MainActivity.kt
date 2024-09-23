@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), BiometricUtils.BiometricAuthCallback {
     private lateinit var sharedPref: SharedPreferences
 
     // App will ask for biometric auth after 10secs in background
-    private val idleDuration = 10 //secs
+    private val idleDuration = 30 //secs
 
     private val enrollBiometricRequestLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {

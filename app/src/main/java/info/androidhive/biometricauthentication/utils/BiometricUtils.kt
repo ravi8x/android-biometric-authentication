@@ -37,10 +37,6 @@ object BiometricUtils {
         return BiometricPrompt(activity, executor, promptCallback)
     }
 
-    fun enrollBiometric(context: Context) {
-        val canAuthenticate = BiometricManager.from(context).canAuthenticate(AUTHENTICATORS)
-    }
-
     fun canAuthenticate(context: Context) = BiometricManager.from(context)
         .canAuthenticate(AUTHENTICATORS) == BiometricManager.BIOMETRIC_SUCCESS
 
